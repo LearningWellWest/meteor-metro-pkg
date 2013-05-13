@@ -1,0 +1,8 @@
+{
+  "name": "metro-pkg",
+  "description": "Package for adding animated metro-like-boxes dynamically",
+  "homepage": "https://github.com/antda/meteor-metro-pkg.git",
+  "author": "Anton Danielsson",
+  "version": "0.1.0",
+  "git": "https://github.com/antda/meteor-metro-pkg.git",
+  "packages": {}
