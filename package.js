@@ -8,6 +8,7 @@ Package.on_use(function (api) {
     'lib/metromet.js',
     'lib/metromet.css',
     'lib/metromet.html',
+    'lib/img/sitta.png',
   ], 'client'
   );
 });

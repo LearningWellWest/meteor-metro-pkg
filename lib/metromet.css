@@ -1,10 +1,10 @@
-.metrobox {
-    padding: 5px;
+.metrobox{
+
     text-shadow: none;
     font-family: arial;
     color:white;
-    border-right:10px solid white;
-    border-bottom:10px solid white;
+    margin-right:5px;
+    margin-bottom:5px;
     float:left;
     height:100px;
     width:100px;
@@ -14,15 +14,33 @@
     word-wrap: break-word; 
     vertical-align: bottom;
     position: relative;
+    cursor: pointer;
+
+    background:no-repeat center;
+    background-size: cover;
+    background-color: blue;
+
+
 }
 
-.metrobox:hover{
+/*.metrobox:hover{
     opacity:0.8;
     cursor:pointer;
+}*/
+
+
+.a{
+    position:absolute;
+    height:100px;
+    width:100%;
+
+}
+.b{
+    display:none;
+    padding: 5px;
+    height: 90px;
 }
 
-.metrobox .namespan {
-   position: absolute;
-   bottom: 0;
-   right: 0;
-}
+.a:hover + .b { display:block; }
+
+

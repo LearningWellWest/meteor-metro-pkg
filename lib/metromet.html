@@ -1,3 +1,33 @@
 <template name="metrobox">
-	<div class="metrobox" id="metrobox_{{_id}}" style='display:none'>{{name}}</div>
+<div class="metrobox" id="metrobox_{{_id}}" style="
+background-image:url({{firstImage}}); 
+background-color:{{randomColor}}; 
+display:none;">
+
+	<div class="front">
+		{{#if firstImage}}
+		<div class="a"></div>
+		<div class="b" style="background-color:{{randomColor}};">
+			{{name}}
+		</div>
+		{{else}}
+		<div class="b" style="display:block;">
+			{{name}}
+		</div>
+		{{/if}}
+
+
+
+
+
+
+</div>
+
+
+	<div class="back">
+	</div>
+</div>
+
+
+
 </template>
