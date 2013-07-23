@@ -1,35 +1,41 @@
-.metrobox{
 
-    text-shadow: none;
-    font-family: arial;
-    color:white;
-    margin-right:5px;
-    margin-bottom:5px;
+.metrobox{
     float:left;
-    height:100px;
-    width:100px;
-    font-weight: bold;
-    font-size: 20px;
-    font-style:helvetica;
-    word-wrap: break-word; 
-    vertical-align: bottom;
+    height:120px;
+    width:300px;
+    background-color: #fff;
     position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
 
-    background:no-repeat center;
+}
+.front{
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-color: blue;
-
+    background-position: center center;
 
 }
 
-/*.metrobox:hover{
+
+.metrobox:hover{
     opacity:0.8;
-    cursor:pointer;
-}*/
+}
 
 
-.a{
+/*.a{
     position:absolute;
     height:100px;
     width:100%;
@@ -41,6 +47,6 @@
     height: 90px;
 }
 
-.a:hover + .b { display:block; }
+.a:hover + .b { display:block; }*/
 
 
