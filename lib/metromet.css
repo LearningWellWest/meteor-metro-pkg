@@ -5,12 +5,14 @@
     width:300px;
     background-color: #fff;
     position: relative;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 9px;
+    margin-bottom: 9px;
     cursor: pointer;
 
 }
 .front{
+    color:#fff;
+    font-size: 20px;
     left:0;
     right:0;
     bottom:0;
@@ -26,12 +28,13 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+    padding:5px;
 
 }
 
 
 .metrobox:hover{
-    opacity:0.8;
+    /*background-color:#E8E8E8;*/
 }
 
 
